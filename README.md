@@ -22,7 +22,7 @@ pod 'TSCalendar'
 
 ## Author
 
-이 태수, tslee@saraminhr.co.kr
+TAE SU LEE, fugitive81@gmail.com
 
 ## License
 

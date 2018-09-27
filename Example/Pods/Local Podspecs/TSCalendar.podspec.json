@@ -1,0 +1,22 @@
+{
+  "name": "TSCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of TSCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/이 태수/TSCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "이 태수": "tslee@saraminhr.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/이 태수/TSCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TSCalendar/Classes/**/*"
+}

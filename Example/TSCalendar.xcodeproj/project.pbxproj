@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0CB3BE327423BFE9EDA58875 /* Pods-TSCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSCalendar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSCalendar_Example/Pods-TSCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		429D1DAA966323609A28EA5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4712AF060636580A63011CEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		429D1DAA966323609A28EA5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4712AF060636580A63011CEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TSCalendar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSCalendar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		E5B8C77B1617B56A155404E5 /* Pods-TSCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSCalendar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSCalendar_Example/Pods-TSCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EA8059236A34C082C37F9716 /* Pods_TSCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB53179C0862282AFFB6E957 /* Pods_TSCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC52D5ABCA2C1BE6E975626B /* TSCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TSCalendar.podspec; path = ../TSCalendar.podspec; sourceTree = "<group>"; };
+		FC52D5ABCA2C1BE6E975626B /* TSCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSCalendar.podspec; path = ../TSCalendar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YW6867KB8Z;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YW6867KB8Z;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -469,7 +471,9 @@
 			baseConfigurationReference = E5B8C77B1617B56A155404E5 /* Pods-TSCalendar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YW6867KB8Z;
 				INFOPLIST_FILE = TSCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -484,7 +488,9 @@
 			baseConfigurationReference = 0CB3BE327423BFE9EDA58875 /* Pods-TSCalendar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YW6867KB8Z;
 				INFOPLIST_FILE = TSCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A7AD5C5B66AB7C405CA132C /* Pods-TSCalendar_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YW6867KB8Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B4D1658EA8955146C0C58F7F /* Pods-TSCalendar_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YW6867KB8Z;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

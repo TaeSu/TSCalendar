@@ -1,0 +1,16 @@
+PODS:
+  - TSCalendar (0.1.0)
+
+DEPENDENCIES:
+  - TSCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  TSCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSCalendar: 3585699464897412f266fc5b25559aa34e581f1d
+
+PODFILE CHECKSUM: e7d132c051154f5b1250bcafb101db08d091210d
+
+COCOAPODS: 1.5.3
